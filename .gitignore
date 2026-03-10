@@ -1,0 +1,41 @@
+# -----------------
+# Node
+# -----------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+.env
+
+# -----------------
+# Python
+# -----------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+env/
+.venv/
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+*.sqlite3
+media/
+staticfiles/
+
+# -----------------
+# OS files
+# -----------------
+.DS_Store
+Thumbs.db
+
+# -----------------
+# IDE
+# -----------------
+.vscode/
+.idea/
