@@ -24,10 +24,15 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
+    "@reduxjs/toolkit": "^2.11.2",
+    "axios": "^1.13.6",
     "bootstrap": "^5.3.8",
     "prop-types": "^15.8.1",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "react-router-dom": "^7.13.1"
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.13.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
   }
 }

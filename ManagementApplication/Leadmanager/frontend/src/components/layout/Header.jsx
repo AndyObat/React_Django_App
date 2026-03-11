@@ -20,8 +20,10 @@ const Header = () => {
                 Andy
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><NavLink className="dropdown-item" to="/app/home">Home</NavLink></li>
-                <li><NavLink className="dropdown-item" to="/app/another-page">Another action</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/app/view_items">View Items</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/app/add_item">Add Item</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/app/delete_item">Delete Item</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/app/edit_item">Edit Item</NavLink></li>
               </ul>
             </li>
           </ul>

@@ -17,6 +17,8 @@ then:
     npm install bootstrap @popperjs/core
     npm install --save-dev style-loader css-loader
 
+    npm install axios
+
 
 If you ever nuke node_modules and want to reinstall everything:
 
